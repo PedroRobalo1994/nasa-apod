@@ -65,7 +65,7 @@ body {
 
 /* Images Container */
 .images-container {
-
+  width: 800px;
   margin-top: 50px;
 }
 
@@ -81,6 +81,12 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
 
 
 .card-body {
@@ -116,13 +122,19 @@ body {
   body {
     line-height: 1.4rem;
     font-size: 0.9rem;
-
+    text-align: justify;
   }
 
+  .images-container {
+    width: 100%;
+  }
 
   .card-title {
     font-size: 20px;
   }
 
-  
+  .save-confirmed {
+    right: 25px;
+  }
+
 }
